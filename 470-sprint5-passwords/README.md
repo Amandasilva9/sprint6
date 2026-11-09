@@ -1,5 +1,5 @@
 **Name:**
-Amanda Silva & Ally Hussey
+Amanda Silva 
 
 **Collaboration Statement:**
 For this assignment, I used the two sources from question 2 (https://www.rfc-editor.org/info/rfc6151/ and (https://www.cyberhub.blog/topic-cards/understanding-md5-vulnerabilities)) to help answer the following questions. Other than the two articles, I completed this lab with the instructions and the Sprint 6 Zybook readings. 
@@ -21,7 +21,7 @@ This output shows that John the Ripper is testing many potential passwords. In t
 
 https://www.rfc-editor.org/info/rfc6151/
 
-We would not use the MD5 hashing algorithm, as it is no longer considered secure. This algorithm is vulnerable to collision attacks where different inputs could result in the same hash values. According to both the articles we found researching, this weakness makes MD5 a poor option for modern security applications such as password storage. As a system administrator, I would not use MD5 because attackers can quickly crack its hashes using newer hardware. 
+I would not use the MD5 hashing algorithm, as it is no longer considered secure. This algorithm is vulnerable to collision attacks where different inputs could result in the same hash values. According to both the articles we found researching, this weakness makes MD5 a poor option for modern security applications such as password storage. As a system administrator, I would not use MD5 because attackers can quickly crack its hashes using newer hardware. 
 
 3. Question 3 answer
 
@@ -46,7 +46,7 @@ raspberry        (?)
     are words being transformed rather than testing the original form. 
 
     3. Creating Derived Forms of Words
-    The outputs are not always correct / real words. John's rule generates different spellings and a variety of differences from the original word. 
+    The outputs are not always correct/real words. John's rule generates different spellings and a variety of differences from the original word. 
 John is testing variations of dictionary words rather than exact words; he is not explicitly using numbers, capitalization, or special characters. 
 
 5. Question 5 Answer
