@@ -2,6 +2,7 @@
 Amanda Silva & Ally Hussey
 
 **Collaboration Statement:**
+For this assignment, I used the two sources from question 2 (https://www.rfc-editor.org/info/rfc6151/ and (https://www.cyberhub.blog/topic-cards/understanding-md5-vulnerabilities)) to help answer the following questions. Other than the two articles, I completed this lab with the instructions and the Sprint 6 Zybook readings. 
 
 1. Question 1 Answer
 
@@ -12,7 +13,7 @@ Amanda Silva & Ally Hussey
     0g 0:00:00:09 3/3 0g/s 21121p/s 21121c/s 21121C/s biting..binnem
     0g 0:00:00:10 3/3 0g/s 20873p/s 20873c/s 20873C/s beles1..buro10
 ```
-This output shows that John the Ripper is testing many potential passwords. In the output, at the end of each line there are words (Maiden6, grandming..babygirling, shymur, etc) these are examples of possible passwordsnthat John is trying. 
+This output shows that John the Ripper is testing many potential passwords. In the output, at the end of each line, there are words (Maiden6, grandming..babygirling, shymur, etc.). These are examples of possible passwords that John is trying. 
 
 2. Question 2 Answer
 
@@ -20,7 +21,7 @@ This output shows that John the Ripper is testing many potential passwords. In t
 
 https://www.rfc-editor.org/info/rfc6151/
 
-We would not use the MD5 hashing algorithms as it is no longer considered secure. This algorithm is vulnerable to collision attakcs where different inputs could result in the same hash values. According to both the articles we found researching, this weakness makes MD5 a poor option for modern security applications such as password storage. As a system administrator, I would not use MD5 becaause attackers can quickly crack its hashes using newer hardware. 
+We would not use the MD5 hashing algorithm, as it is no longer considered secure. This algorithm is vulnerable to collision attacks where different inputs could result in the same hash values. According to both the articles we found researching, this weakness makes MD5 a poor option for modern security applications such as password storage. As a system administrator, I would not use MD5 because attackers can quickly crack its hashes using newer hardware. 
 
 3. Question 3 answer
 
@@ -37,16 +38,16 @@ raspberry        (?)
     0g 0:00:00:10 1% 0g/s 21199p/s 21199c/s 21199C/s pericristate..peristrumitis
 
     1. Shortening Words 
-    occluded -> odelet : these are different words but John appears to be moving through modified words that are shorter than the original. 
+    occluded -> odelet: these are different words but John appears to be moving through modified words that are shorter than the original. 
 
-    2. Letter Subsitution
+    2. Letter Substitution
     miscegenation -> misguggle
     pericristate -> peristrumitis 
     are words being transformed rather than testing the original form. 
 
     3. Creating Derived Forms of Words
-    The outputs are not always correct / real words. Johns rule generates different spellings and variety of differences from the original word. 
-John is testing vaariations of dictionary words rather than exact words, he is not explicitly using numbers, capitalization, or special characters. 
+    The outputs are not always correct / real words. John's rule generates different spellings and a variety of differences from the original word. 
+John is testing variations of dictionary words rather than exact words; he is not explicitly using numbers, capitalization, or special characters. 
 
 5. Question 5 Answer
 
